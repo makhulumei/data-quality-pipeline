@@ -1,0 +1,48 @@
+{
+  "columns": {
+    "customer_id": {
+      "dtype": "integer",
+      "required": true,
+      "nullable": false,
+      "unique": true,
+      "minimum": 1
+    },
+    "name": {
+      "dtype": "string",
+      "required": true,
+      "nullable": false,
+      "strip": true
+    },
+    "email": {
+      "dtype": "string",
+      "required": true,
+      "nullable": false,
+      "lowercase": true,
+      "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$"
+    },
+    "age": {
+      "dtype": "integer",
+      "nullable": true,
+      "minimum": 18,
+      "maximum": 100
+    },
+    "city": {
+      "dtype": "string",
+      "nullable": false,
+      "strip": true
+    },
+    "status": {
+      "dtype": "string",
+      "nullable": false,
+      "lowercase": true,
+      "allowed_values": ["active", "inactive", "pending"]
+    },
+    "created_at": {
+      "dtype": "datetime",
+      "nullable": false
+    }
+  },
+  "allow_extra_columns": false,
+  "drop_duplicate_rows": true,
+  "duplicate_subset": ["customer_id"]
+}

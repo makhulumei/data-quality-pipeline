@@ -1,0 +1,102 @@
+customer_id,name,email,age,city,status,created_at
+1,N/A,invalid-email,unknown,Islamabad,active,2026-04-05
+2, Ayesha Khan ,customer2@example.com,55,Dubai,active,2026-01-03
+3, Hamza Nawaz ,customer3@example.com,50,Abu Dhabi,active,2026-09-07
+4, Noor Nawaz ,customer4@example.com,46,Abu Dhabi,inactive,2026-01-25
+5, Fatima Ali ,customer5@example.com,39,Islamabad,active,2026-04-25
+6, Mariam Khan ,customer6@example.com,23,Dubai,active,2026-06-28
+7, Mariam Ahmed ,customer7@example.com,69,Lahore,pending,2026-08-18
+8, Ayesha Ali ,customer8@example.com,23,Abu Dhabi,inactive,2026-06-19
+9, Hamza Khan ,customer9@example.com,20,Sharjah,active,2026-05-03
+10, Hamza Khan ,customer10@example.com,42,Islamabad,inactive,2026-06-06
+11, Mariam Ahmed ,customer11@example.com,31,Sharjah,inactive,2026-02-20
+12, Fatima Nawaz ,customer12@example.com,28,Dubai,inactive,2026-05-21
+13, Hamza Ahmed ,customer13@example.com,71,Lahore,active,2026-01-26
+14, Mariam Ali ,customer14@example.com,35,Lahore,active,2026-06-07
+15, Omar Ali ,customer15@example.com,74,Sharjah,inactive,2026-03-09
+16, Fatima Nawaz ,customer16@example.com,65,Abu Dhabi,pending,2026-05-24
+17, Noor Ali ,customer17@example.com,41,Karachi,active,2026-09-16
+18, Ayesha Khan ,customer18@example.com,73,Lahore,active,2026-03-26
+19, Noor Khan ,customer19@example.com,42,Dubai,pending,2026-08-17
+20, Hassan Khan ,customer20@example.com,61,Sharjah,active,2026-09-25
+21, Hassan Ahmed ,customer21@example.com,25,Islamabad,inactive,2026-03-15
+22, Ali Ahmed ,customer22@example.com,50,Karachi,pending,2026-02-28
+23, Hassan Nawaz ,customer23@example.com,27,Islamabad,active,2026-09-25
+24, Ali Ahmed ,customer24@example.com,49,Lahore,active,2026-06-27
+25, Hassan Nawaz ,customer25@example.com,21,Karachi,pending,2026-02-03
+26, Omar Khan ,customer26@example.com,66,Abu Dhabi,active,2026-03-22
+27, Omar Nawaz ,customer27@example.com,34,Abu Dhabi,pending,2026-07-07
+28, Hamza Ahmed ,customer28@example.com,43,Sharjah,pending,2026-06-15
+29, Omar Khan ,customer29@example.com,33,Karachi,active,2026-06-01
+30, Hamza Nawaz ,customer30@example.com,18,Lahore,pending,2026-01-08
+31, Ayesha Khan ,customer31@example.com,73,Islamabad,active,2026-09-08
+32, Hassan Ali ,customer32@example.com,31,Abu Dhabi,active,2026-08-08
+33, Omar Ali ,customer33@example.com,30,Lahore,active,2026-07-12
+34, Noor Ali ,customer34@example.com,47,Sharjah,active,2026-02-02
+35, Noor Ahmed ,customer35@example.com,69,Lahore,active,2026-04-07
+36, Omar Nawaz ,customer36@example.com,45,Karachi,inactive,2026-08-08
+37, Ayesha Ali ,customer37@example.com,69,Abu Dhabi,active,2026-01-21
+38, Ali Khan ,customer38@example.com,66,Karachi,active,2026-07-16
+39, Omar Nawaz ,customer39@example.com,73,Dubai,active,2026-03-13
+40, Ali Ali ,customer40@example.com,34,Dubai,inactive,2026-07-23
+41, Omar Nawaz ,customer41@example.com,30,Islamabad,active,2026-01-19
+42, Ali Ahmed ,customer42@example.com,21,Lahore,pending,2026-08-17
+43, Fatima Khan ,customer43@example.com,50,Lahore,active,2026-02-20
+44, Ayesha Nawaz ,customer44@example.com,43,Lahore,pending,2026-04-19
+45, Ali Khan ,customer45@example.com,44,Sharjah,pending,2026-09-11
+46, Hassan Nawaz ,customer46@example.com,60,Sharjah,inactive,2026-04-09
+47, Noor Nawaz ,customer47@example.com,60,Sharjah,inactive,2026-08-11
+48, Ayesha Khan ,customer48@example.com,47,Abu Dhabi,pending,2026-02-03
+49, Hamza Ahmed ,customer49@example.com,26,Islamabad,active,2026-04-12
+50, Hassan Nawaz ,customer50@example.com,46,Abu Dhabi,pending,2026-05-20
+51, Ali Ahmed ,customer51@example.com,60,Lahore,active,2026-05-04
+52, Ayesha Nawaz ,customer52@example.com,35,Islamabad,pending,2026-04-23
+53, Mariam Nawaz ,customer53@example.com,61,Sharjah,inactive,2026-09-16
+54, Hassan Khan ,customer54@example.com,23,Sharjah,inactive,2026-05-02
+55, Ali Ahmed ,customer55@example.com,67,Karachi,pending,2026-05-06
+56, Omar Ali ,customer56@example.com,53,Lahore,active,2026-02-23
+57, Fatima Khan ,customer57@example.com,71,Islamabad,pending,2026-09-05
+58, Noor Nawaz ,customer58@example.com,20,Islamabad,inactive,2026-01-12
+59, Hamza Nawaz ,customer59@example.com,60,Lahore,inactive,2026-09-28
+60, Noor Nawaz ,customer60@example.com,33,Karachi,active,2026-07-01
+61, Fatima Ahmed ,customer61@example.com,68,Dubai,pending,2026-04-09
+62, Fatima Khan ,customer62@example.com,42,Lahore,inactive,2026-04-07
+63, Omar Ahmed ,customer63@example.com,37,Karachi,active,2026-01-22
+64, Hamza Ali ,customer64@example.com,39,Islamabad,active,2026-05-12
+65, Noor Ahmed ,customer65@example.com,19,Lahore,inactive,2026-03-19
+66, Hassan Khan ,customer66@example.com,24,Abu Dhabi,inactive,2026-06-24
+67, Mariam Ali ,customer67@example.com,56,Abu Dhabi,active,2026-07-19
+68, Hamza Ahmed ,customer68@example.com,20,Sharjah,inactive,2026-01-17
+69, Hamza Ahmed ,customer69@example.com,45,Lahore,pending,2026-06-20
+70, Mariam Khan ,customer70@example.com,64,Islamabad,pending,2026-05-22
+71, Noor Ahmed ,customer71@example.com,43,Sharjah,inactive,2026-09-05
+72, Hamza Ali ,customer72@example.com,60,Dubai,pending,2026-03-20
+73, Hassan Ali ,customer73@example.com,53,Lahore,inactive,2026-05-07
+74, Noor Ahmed ,customer74@example.com,47,Dubai,inactive,2026-04-17
+75, Omar Nawaz ,customer75@example.com,60,Lahore,inactive,2026-09-22
+76, Mariam Khan ,customer76@example.com,70,Karachi,pending,2026-05-08
+77, Hamza Nawaz ,customer77@example.com,19,Lahore,active,2026-08-20
+78, Ayesha Ali ,customer78@example.com,44,Sharjah,pending,2026-04-23
+79, Noor Ali ,customer79@example.com,43,Karachi,active,2026-01-25
+80, Ayesha Ali ,customer80@example.com,32,Karachi,pending,2026-09-15
+81, Ali Nawaz ,customer81@example.com,72,Lahore,inactive,2026-03-26
+82, Omar Ahmed ,customer82@example.com,66,Dubai,pending,2026-09-14
+83, Omar Nawaz ,customer83@example.com,65,Dubai,inactive,2026-05-25
+84, Hamza Ahmed ,customer84@example.com,67,Abu Dhabi,inactive,2026-04-09
+85, Omar Khan ,customer85@example.com,63,Islamabad,active,2026-05-11
+86, Mariam Khan ,customer86@example.com,26,Karachi,active,2026-07-23
+87, Fatima Nawaz ,customer87@example.com,22,Dubai,inactive,2026-06-18
+88, Omar Ali ,customer88@example.com,21,Karachi,inactive,2026-07-25
+89, Ali Ali ,customer89@example.com,48,Lahore,inactive,2026-05-25
+90, Noor Ali ,customer90@example.com,52,Sharjah,pending,2026-09-26
+91, Hamza Ali ,customer91@example.com,32,Islamabad,inactive,2026-08-01
+92, Noor Ahmed ,customer92@example.com,60,Sharjah,inactive,2026-03-27
+93, Omar Nawaz ,customer93@example.com,57,Abu Dhabi,active,2026-07-19
+94, Ali Khan ,customer94@example.com,59,Dubai,active,2026-08-06
+95, Ali Ahmed ,customer95@example.com,42,Islamabad,active,2026-08-11
+96, Mariam Ali ,customer96@example.com,35,Dubai,inactive,2026-02-16
+97, Ali Khan ,customer97@example.com,40,Karachi,pending,2026-02-25
+98, Ali Khan ,invalid-email,33,Karachi,active,2026-03-08
+99, Fatima Ali ,customer99@example.com,60,Lahore,pending,2026-04-15
+100, Hassan Ahmed ,customer100@example.com,28,Abu Dhabi,pending,2026-02-25
+1,N/A,invalid-email,unknown,Islamabad,active,2026-04-05

@@ -1,0 +1,120 @@
+{
+  "report": {
+    "rows_received": 101,
+    "rows_output": 100,
+    "columns_received": 7,
+    "duplicate_rows_removed": 1,
+    "issues": [
+      {
+        "code": "coercion_failure",
+        "severity": "error",
+        "message": "Non-null source values could not be converted to integer.",
+        "column": "age",
+        "row_count": 2,
+        "sample_rows": [
+          0,
+          100
+        ]
+      },
+      {
+        "code": "source_null",
+        "severity": "error",
+        "message": "Source null values are not allowed.",
+        "column": "name",
+        "row_count": 1,
+        "sample_rows": [
+          0
+        ]
+      },
+      {
+        "code": "pattern_mismatch",
+        "severity": "error",
+        "message": "Value does not match the required pattern.",
+        "column": "email",
+        "row_count": 2,
+        "sample_rows": [
+          0,
+          97
+        ]
+      }
+    ],
+    "profile": {
+      "customer_id": {
+        "dtype": "Int64",
+        "non_null_count": 100,
+        "null_count": 0,
+        "null_percent": 0.0,
+        "distinct_count": 100,
+        "duplicate_value_count": 0,
+        "minimum": 1,
+        "maximum": 100
+      },
+      "name": {
+        "dtype": "string",
+        "non_null_count": 99,
+        "null_count": 1,
+        "null_percent": 1.0,
+        "distinct_count": 31,
+        "duplicate_value_count": 95,
+        "minimum": "Ali Ahmed",
+        "maximum": "Omar Nawaz"
+      },
+      "email": {
+        "dtype": "string",
+        "non_null_count": 100,
+        "null_count": 0,
+        "null_percent": 0.0,
+        "distinct_count": 99,
+        "duplicate_value_count": 2,
+        "minimum": "customer100@example.com",
+        "maximum": "invalid-email"
+      },
+      "age": {
+        "dtype": "Int64",
+        "non_null_count": 99,
+        "null_count": 1,
+        "null_percent": 1.0,
+        "distinct_count": 50,
+        "duplicate_value_count": 78,
+        "minimum": 18,
+        "maximum": 74
+      },
+      "city": {
+        "dtype": "string",
+        "non_null_count": 100,
+        "null_count": 0,
+        "null_percent": 0.0,
+        "distinct_count": 6,
+        "duplicate_value_count": 100,
+        "minimum": "Abu Dhabi",
+        "maximum": "Sharjah"
+      },
+      "status": {
+        "dtype": "string",
+        "non_null_count": 100,
+        "null_count": 0,
+        "null_percent": 0.0,
+        "distinct_count": 3,
+        "duplicate_value_count": 100,
+        "minimum": "active",
+        "maximum": "pending"
+      },
+      "created_at": {
+        "dtype": "datetime64[ns, UTC]",
+        "non_null_count": 100,
+        "null_count": 0,
+        "null_percent": 0.0,
+        "distinct_count": 82,
+        "duplicate_value_count": 35,
+        "minimum": "2026-01-03 00:00:00+00:00",
+        "maximum": "2026-09-28 00:00:00+00:00"
+      }
+    }
+  },
+  "timings_ms": {
+    "transform": 17.038,
+    "validation": 1.597,
+    "profiling": 4.305,
+    "total": 26.021
+  }
+}
