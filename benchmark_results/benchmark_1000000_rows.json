@@ -1,0 +1,76 @@
+{
+  "generated_at_utc": "2026-09-16T22:21:42.827497+00:00",
+  "methodology": {
+    "dataset": "deterministic synthetic customer records with controlled data defects",
+    "generator_version": "1.0.0",
+    "schema_path": "sample_data/customer_schema.json",
+    "schema_sha256": "5f36bac7a676e2f1545d1e193f70f90c8a2571ef4cf1edf76cb6cd4ced3726f2",
+    "base_seed": 42,
+    "requested_unique_rows": 1000000,
+    "actual_input_rows": 1010000,
+    "controlled_duplicate_rows": 10000,
+    "output_rows": 1000000,
+    "repeats": 3,
+    "warmup": "none",
+    "scope": "in-memory normalization, deduplication, validation, and profiling",
+    "excludes": [
+      "synthetic data generation",
+      "file parsing",
+      "file upload",
+      "network",
+      "database write"
+    ]
+  },
+  "environment": {
+    "python": "3.13.2",
+    "pandas": "2.3.3",
+    "numpy": "2.5.3",
+    "pydantic": "2.13.5",
+    "platform": "macOS-26.3-arm64-arm-64bit-Mach-O",
+    "machine_model": "Mac14,7",
+    "cpu_or_chip": "Apple M2",
+    "logical_core_count": 8,
+    "ram_bytes": 8589934592,
+    "peak_process_rss_mb": 1034.67,
+    "peak_memory_note": "Process high-water mark; includes generated frames and process overhead."
+  },
+  "source": {
+    "commit": "40f9a88dc0409744d06ab3798a070a83a2a6a708",
+    "working_tree_dirty": false
+  },
+  "command": "python scripts/run_benchmark.py --rows 1000000 --repeats 3 --seed 42 --output benchmark_results/benchmark_1000000_rows.json",
+  "summary": {
+    "median_seconds": 7.772372,
+    "minimum_seconds": 4.412045,
+    "maximum_seconds": 8.573104
+  },
+  "samples": [
+    {
+      "repeat": 1,
+      "seed": 42,
+      "input_rows": 1010000,
+      "output_rows": 1000000,
+      "duplicate_rows_removed": 10000,
+      "elapsed_seconds": 8.573104,
+      "rows_per_second": 117810.3
+    },
+    {
+      "repeat": 2,
+      "seed": 43,
+      "input_rows": 1010000,
+      "output_rows": 1000000,
+      "duplicate_rows_removed": 10000,
+      "elapsed_seconds": 7.772372,
+      "rows_per_second": 129947.47
+    },
+    {
+      "repeat": 3,
+      "seed": 44,
+      "input_rows": 1010000,
+      "output_rows": 1000000,
+      "duplicate_rows_removed": 10000,
+      "elapsed_seconds": 4.412045,
+      "rows_per_second": 228918.81
+    }
+  ]
+}

@@ -28,6 +28,8 @@ The automated suite covers normalization, integer/float/boolean/datetime coercio
 
 CI runs Ruff and unit/API tests across Python 3.11–3.13, exercises PostgreSQL in a service container, builds and installs the wheel, smokes the CLI, and builds the application image. The release benchmark is reproducible from deterministic synthetic data and publishes machine-readable scope, environment, revision, and per-run evidence.
 
+On source revision `40f9a88dc0409744d06ab3798a070a83a2a6a708`, three no-warmup runs processed 1,010,000 synthetic input rows to 1,000,000 outputs in a median 7.772 seconds (range 4.412–8.573). The environment was Python 3.13.2 on an 8-core Apple M2 MacBook Pro with 8 GiB RAM and macOS 26.3. Generation, parsing, upload, network, and database writes were outside the timed scope; the full record is in `benchmark_results/benchmark_1000000_rows.json`.
+
 ## What it demonstrates
 
 - Python and vectorized Pandas for repeatable ETL;

@@ -222,7 +222,9 @@ The release record captures the full command, generator and schema identity, Git
 
 ### Release result
 
-The final release benchmark is generated after the corrected implementation is committed. Cite only the values in [`benchmark_results/benchmark_1000000_rows.json`](benchmark_results/benchmark_1000000_rows.json), together with its commit SHA and scope. No comparison with a separate professional workflow is made or implied.
+On the clean source revision `40f9a88dc0409744d06ab3798a070a83a2a6a708`, the pipeline processed 1,010,000 synthetic input rows (1,000,000 requested unique rows plus 10,000 controlled duplicates) to 1,000,000 output rows in a median **7.772 seconds** over three runs. The range was 4.412–8.573 seconds with no warmup.
+
+The run used Python 3.13.2, Pandas 2.3.3, NumPy 2.5.3, and Pydantic 2.13.5 on an Apple M2 MacBook Pro (`Mac14,7`) with 8 logical cores, 8 GiB RAM, and macOS 26.3. Peak process RSS was 1,034.67 MiB and includes process overhead and generated frames. Cite only these values with the [machine-readable record](benchmark_results/benchmark_1000000_rows.json) and its stated scope. No comparison with a separate professional workflow is made or implied.
 
 ## Security boundaries and limitations
 
