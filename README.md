@@ -11,7 +11,7 @@ A clean-room, schema-driven Python pipeline for normalizing, validating, dedupli
 | Interfaces | Python API, `dq-pipeline` CLI, and FastAPI `/v1/process` |
 | Outputs | Normalized DataFrame, structured issues, column profile, and stage timings |
 | Persistence | Optional caller-controlled SQLAlchemy write; PostgreSQL is the intended target |
-| Verification | Ruff, 45 local tests, 93.55% branch coverage, PostgreSQL integration test, and CI on Python 3.11–3.13 |
+| Verification | Ruff, 45 local tests, 93.55% branch coverage, security and dependency scans, PostgreSQL integration test, and CI on Python 3.11–3.13 |
 | Evidence | Machine-readable 1,010,000-input-row synthetic benchmark with code and environment metadata |
 
 No employer code, client data, production schema, or private business logic is used. The project does not assign a universal “quality score”; fitness for use depends on domain rules and review of the reported issues.
@@ -206,7 +206,7 @@ pytest -m "not integration" --cov=data_quality_pipeline --cov-report=term-missin
 python -m build --no-isolation
 ```
 
-Coverage must remain at or above 90%. CI runs lint, unit/API tests on Python 3.11, 3.12, and 3.13, a PostgreSQL service test, a wheel smoke test, and a container build.
+Coverage must remain at or above 90%. CI runs lint, unit/API tests on Python 3.11, 3.12, and 3.13, dependency audits, a tracked-file secret scan, a medium/high-severity static security check, a PostgreSQL service test, a wheel smoke test, and a container build.
 
 ## Reproducible benchmark
 
