@@ -170,7 +170,7 @@ def main() -> None:
     args = parser.parse_args()
     output = args.output or Path(f"benchmark_results/benchmark_{args.rows}_rows.json")
     output.parent.mkdir(parents=True, exist_ok=True)
-    command = shlex.join([sys.executable, *sys.argv])
+    command = shlex.join(["python", *sys.argv])
     result = benchmark(args.rows, args.repeats, args.seed, command)
     output.write_text(json.dumps(result, indent=2), encoding="utf-8")
     print(json.dumps(result["summary"], indent=2))
